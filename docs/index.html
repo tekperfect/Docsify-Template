@@ -16,22 +16,26 @@
       name: 'Docsify Template', // Whatever header
       repo: 'tekperfect/Docsify-Template', // Change Repo Name
       themeColor: '#126893',
-      loadSidebar: '_sidebar.md',
       executeScript: true,
       auto2top: true,
       autoHeader: true,
+      loadSidebar: true,
       maxLevel: 6,
       subMaxLevel: 2,
-      maxLevel: 3,
-      loadNavbar: true,
-      search: {   // Search function for content
-        maxAge: 86400000, 
+      el: "#app",
+      maxLevel: 3,       
+      themeable: {
+        readyTransition: true,
+        responsiveTables: true
+      },
+      search: {
+        maxAge: 86400000, // Expiration time, the default one day
         paths: "auto",
         placeholder: 'Search Content...',
         noData: 'No Results!',
         depth: 4,
         hideOtherSidebarContent: false,
-        namespace: 'Full-Stack-Python', // Change language type or Namespace
+        namespace: 'Full-Stack-Python',
       },
       copyCode: {
         buttonText: '📋 Click to Copy',
@@ -41,8 +45,8 @@
       'flexible-alerts': {
         style: 'flat'
       }
-    }
-  </script>
+      }
+   </script>
    <script src="//unpkg.com/docsify-themeable"></script>
    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
    <script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
@@ -76,7 +80,7 @@
    <script src="//unpkg.com/prismjs/components/prism-yaml.min.js"></script>
    <script>
      if (typeof navigator.serviceWorker !== 'undefined') {
-       navigator.serviceWorker.register('Web/sw.js')
+       navigator.serviceWorker.register('sw.js')
      }
    </script>
  </body>
