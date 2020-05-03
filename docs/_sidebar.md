@@ -1,2 +1,5 @@
-- **[Header]()**
-
+- **[📋 Syllabus](/README.md)**
+- **[📅 Lessons](/README.md?id=lessons)**
+  - [PlaceHolder](Lessons/placeholder.md)
+- **🗒️Assessments**
+  - [PlaceHolder](Practice/placeholder.md)
