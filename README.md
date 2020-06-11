@@ -1,9 +1,9 @@
 # DevOps: 
 
 1. [Course Description](#course-description)
-2. [Prerequisites](#prerequisites)
-3. [Learning Outcomes](#learning-outcomes)
-4. [Lessons](#lessons)
+1. [Prerequisites](#prerequisites)
+1. [Learning Outcomes](#learning-outcomes)
+1. [Lessons](#lessons)
 
 ## Course Description
 
