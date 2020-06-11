@@ -1,4 +1,4 @@
-# DevOps: Template
+# DevOps: 
 
 1. [Course Description](#course-description)
 2. [Prerequisites](#prerequisites)
@@ -7,7 +7,6 @@
 
 ## Course Description
 
-
 ## Prerequisites
 
 
@@ -15,6 +14,7 @@
 
 Students by the end of the course will be able to...
 
+...
 
 ## Lessons
 

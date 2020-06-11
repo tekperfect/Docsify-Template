@@ -1,5 +1,3 @@
 - **[📋 Syllabus](/README.md)**
-- **[📅 Lessons](/README.md?id=lessons)**
-  - [PlaceHolder](Lessons/placeholder.md)
+  - [Getting Started](Lessons/01)
 - **🗒️Assessments**
-  - [PlaceHolder](Practice/placeholder.md)
